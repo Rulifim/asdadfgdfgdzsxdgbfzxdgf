@@ -1,0 +1,51 @@
+#map {
+            width: 100%;
+            height: 885px;
+        }
+        .info-window {
+            max-width: 250px;
+        }
+        .info-window img {
+            width: 100%;
+            border-radius: 6px;
+            margin-bottom: 6px;
+        }
+/* .gm-ui-hover-effect{
+    color: black;
+    background-color: black;
+} */
+img[src="https://maps.gstatic.com/mapfiles/transparent.png"]{
+    filter: brightness(0.5)
+}
+strong{
+    color: black;
+    font-size: 20px;
+    color: rgb(64, 146, 240);
+}
+.desc{
+    font-weight: bold;
+}
+.icon{
+    width: 100%;
+    max-width: 400px;
+    max-height: 200px;
+    object-fit: cover;
+}
+.info-window{
+    max-width: 400px;
+}
+.adress{
+    color: rgb(54, 54, 54);
+    font-weight: 400px;
+}
+.link{
+    width: 100%;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.link:hover{
+    cursor: pointer;
+}
