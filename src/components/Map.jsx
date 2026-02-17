@@ -133,7 +133,6 @@ const Map = () => {
           <form action="https://google.com">
             <input class="link" type="submit" value="больше о церкви " />
           </form>
-
         </div>
       `,
     });
